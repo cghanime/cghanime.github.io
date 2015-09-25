@@ -5,10 +5,6 @@
 	color: #fff;
 }
 
-html {
-	overflow-y: scroll;
-}
-
 body {
 	background-image: url("../img/bg.jpg");
 	background-size: cover;
@@ -111,6 +107,7 @@ body {
 	float:right;
 	text-transform: lowercase;
 	font-family: "Lora", sans-serif;
+	overflow: hidden;
 }
 
 .navbar-default {
