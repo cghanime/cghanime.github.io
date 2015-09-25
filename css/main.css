@@ -3,6 +3,10 @@
 	color: #fff;
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	background-image: url("../img/bg copy.jpg");
 	background-size: cover;
@@ -117,4 +121,16 @@ body {
 .container#content .col-md-2 {
 	clear: both;
 	width: 100%;
+}
+
+.thumbnail {
+	padding:0;
+	border:0;
+	border-radius: 0;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border: 0;
 }
