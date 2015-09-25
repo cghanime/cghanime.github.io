@@ -66,6 +66,9 @@ body {
 	transform: translateY(0px);
 }
 
+#navbar {
+	overflow: hidden;
+}
 
 .navbar-brand>li>a,
 .navbar-brand>li>a:hover,
