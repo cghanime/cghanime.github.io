@@ -46,8 +46,8 @@ body {
 .cl-effect-3 a::after {
 	position: absolute;
 	top: 100%;
-	left: 0;
-	width: 100%;
+	left: 5%;
+	width: 90%;
 	height: 2px;
 	background: rgba(255,255,255,1);
 	content: '';
@@ -101,6 +101,7 @@ body {
 .navbar-nav>li>a:hover,
 .navbar-nav>li>a:focus {
 	color: #fff;
+	padding-bottom: 3px;
 	text-decoration: none;
 	background: none;
 	font-family: "Lora", sans-serif;
