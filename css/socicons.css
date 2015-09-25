@@ -68,15 +68,12 @@
 .soc-email1:before {
     content:'<';
 }
-.soc-facebook:before {
-    content:'b';
+.soc-instagram:before {
+    content:'x';
 }
 .soc-flickr:before {
     content:'v';
 }
 .soc-linkedin:before {
     content:'j';
-}
-.soc-instagram:before {
-    content:'x';
 }
