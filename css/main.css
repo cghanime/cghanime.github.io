@@ -41,6 +41,10 @@ body {
 	color: #fff;
 }
 
+.navbar-fixed-top {
+	z-index: 99;
+} 
+
 .navbar-nav {
 	float:right;
 	text-transform: lowercase;
@@ -71,14 +75,14 @@ body {
 /*about page*/
 
 .container#content{
-	margin-top: 15%;
+	margin-top: 6%;
 	display: block;
 }
 
 .container#content .col-md-8 {
 	text-align: left;
 	color: #333;
-	padding: 30px;
+	padding: 20px 30px;
 	margin-left: 13%;
 	margin-right: auto;
 	margin-bottom: 10px;
@@ -93,10 +97,12 @@ body {
 .container#content .col-md-8 h3 {
 	text-transform: lowercase;
 	font-family: "Lora", sans-serif;
+	margin-top: 5px;
 }
 
 .container#content .col-md-8 p {
 	color: #333;
+	margin: 0px 20px;
 }
 
 .container#content .col-md-2 {
