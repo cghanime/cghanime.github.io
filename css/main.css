@@ -34,6 +34,13 @@ body {
 	font-family: "Lora", sans-serif;
 }
 
+.navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
+	font-family: "Lora", sans-serif;
+	font-size: 1em;
+	text-transform: lowercase;
+	color: #fff;
+}
+
 .navbar-nav {
 	float:right;
 	text-transform: lowercase;
@@ -63,13 +70,17 @@ body {
 
 /*about page*/
 
-.col-md-8 {
+.container#content{
+	margin-top: 15%;
+	display: block;
+}
+
+.container#content .col-md-8 {
 	text-align: left;
 	color: #333;
 	padding: 30px;
-	margin-left: auto;
+	margin-left: 13%;
 	margin-right: auto;
-	margin-top: 20%;
 	margin-bottom: 10px;
 	background-color: #f9f9f9;
 	width: 75%;
@@ -77,14 +88,18 @@ body {
 	-webkit-box-shadow: 0px 6px 0px -1px rgba(51,51,51,0.61);
 	-moz-box-shadow: 0px 6px 0px -1px rgba(51,51,51,0.61);
 	box-shadow: 0px 6px 0px -1px rgba(51,51,51,0.61);
-	display: block;
 }
 
-.col-md-8 h3 {
+.container#content .col-md-8 h3 {
 	text-transform: lowercase;
 	font-family: "Lora", sans-serif;
 }
 
-.col-md-8 p {
+.container#content .col-md-8 p {
 	color: #333;
+}
+
+.container#content .col-md-2 {
+	clear: both;
+	width: 100%;
 }
