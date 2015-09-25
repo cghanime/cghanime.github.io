@@ -59,6 +59,10 @@ body {
 	border: 0;
 }
 
+.navbar-nav>li {
+	display:inline-block;
+}
+
 .navbar-nav>li>a,
 .navbar-nav>li>a:hover,
 .navbar-nav>li>a:focus {
