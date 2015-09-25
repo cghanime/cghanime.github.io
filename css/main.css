@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat');
+
 * {
 	font-family: "Montserrat", sans-serif;
 	color: #fff;
@@ -68,11 +70,33 @@ body {
 	transform: translateY(0px);
 }
 
+
+.navbar-brand>li>a,
+.navbar-brand>li>a:hover,
+.navbar-brand>li>a:focus {
+	color: #fff;
+	padding-bottom: 3px;
+	margin: 0;
+	text-decoration: none;
+	background: none;
+	font-family: "Lora", sans-serif;
+}
+
+.navbar-brand>.active>a, 
+.navbar-brand>.active>a:hover, 
+.navbar-brand>.active>a:focus {
+  text-decoration: none;
+  background: none;
+  color: #fff;
+}
+
 .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
 	font-family: "Lora", sans-serif;
 	font-size: 1em;
 	text-transform: lowercase;
 	color: #fff;
+	padding-top: 5px;
+	padding-left: 1px;
 }
 
 .navbar-toggle {
@@ -154,9 +178,33 @@ body {
 }
 
 .thumbnail {
+	position: relative;
 	padding:0;
 	border:0;
 	border-radius: 0;
+}
+
+.thumbnail .caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.7);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.thumbnail:hover .caption {
+	opacity: 1;
+}
+
+.caption strong {
+	font-family: "Lora", sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: lowercase;
+	color: #333;
 }
 
 a.thumbnail:hover,
