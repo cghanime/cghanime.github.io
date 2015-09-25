@@ -41,9 +41,13 @@ body {
 	color: #fff;
 }
 
-.navbar-fixed-top {
-	z-index: 99;
-} 
+.navbar-toggle {
+	background-image: url("../img/icon-menu.svg");
+	border-radius: 0;
+	width: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 
 .navbar-nav {
 	float:right;
