@@ -231,15 +231,6 @@ a.thumbnail.active {
 
 /* Hero image */
 
-@media only screen and (max-device-width: 480px) {
-	#about {
-	background-image: url("../img/me.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right top;
-	}
-}
-
 .hero {
 	height: 350px;
 	max-width: 100%;
@@ -249,12 +240,12 @@ a.thumbnail.active {
 	background-image: url("../img/me.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: right center;
 }
 
 #p1 {
 	background-image: url("../img/thumb.jpg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-bottom: 20px;
