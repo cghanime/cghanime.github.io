@@ -230,9 +230,18 @@ a.thumbnail.active {
 
 /* Hero image */
 
+@media only screen and (max-device-width: 480px) {
+#about {
+	background-image: url("../img/me.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+}
+
 .hero {
 	height: 350px;
-	width: 100%;
+	max-width: 100%;
 }
 
 #about {
