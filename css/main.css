@@ -249,7 +249,7 @@ a.thumbnail.active {
 
 #p1 {
 	background-image: url("../img/lahyani.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-bottom: 20px;
