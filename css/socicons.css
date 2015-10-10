@@ -56,6 +56,7 @@
     margin-right: 5px;
     color: #ffffff;
     background: none;
+    transition: all 0.3s;
 }
 
 .soc-icon-last{
