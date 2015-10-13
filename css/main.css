@@ -32,12 +32,12 @@ body {
 
 .name h2 {
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 2rem;
 }
 
 .name p {
 	text-transform: lowercase;
-	font-size: 1em;
+	font-size: 1.6rem;
 	font-family: "Lora", sans-serif;
 }
 
