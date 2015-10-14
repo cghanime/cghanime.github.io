@@ -154,7 +154,7 @@ body {
 	text-align: left;
 	color: #333;
 	padding:0;
-	margin-left: 13%;
+	margin-left: 14%;
 	margin-right: auto;
 	margin-bottom: 10px;
 	background-color: #f9f9f9;
@@ -257,8 +257,18 @@ em {
 	color: #757575;
 }
 
+/* portfolio hero images */
+
 #p1 {
 	background-image: url("../img/lahyani.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 20px;
+}
+
+#p2 {
+	background-image: url("../img/nomad.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
