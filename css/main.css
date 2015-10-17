@@ -116,6 +116,7 @@ body {
 	float:right;
 	text-transform: lowercase;
 	font-family: "Lora", sans-serif;
+	font-weight: 700;
 }
 
 .navbar-default {
@@ -155,7 +156,7 @@ body {
 	text-align: left;
 	color: #333;
 	padding:0;
-	margin-left: 15.5%;
+	margin-left: 15%;
 	margin-right: auto;
 	margin-bottom: 10px;
 	background-color: #f9f9f9;
